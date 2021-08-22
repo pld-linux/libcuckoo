@@ -3,7 +3,7 @@ Summary:	High-performance, compact hash table
 Summary(pl.UTF-8):	Wydajna, zwarta tablica asocjacyjna
 Name:		libcuckoo
 Version:	0.3
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/efficient/libcuckoo/releases
@@ -27,7 +27,6 @@ na wiele wątków czytających i piszących.
 Summary:	High-performance, compact hash table
 Summary(pl.UTF-8):	Wydajna, zwarta tablica asocjacyjna
 Group:		Development/Libraries
-Requires:	%{name} = %{version}-%{release}
 
 %description devel
 libcuckoo provides a high-performance, compact hash table that allows
