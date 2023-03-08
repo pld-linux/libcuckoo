@@ -2,13 +2,13 @@
 Summary:	High-performance, compact hash table
 Summary(pl.UTF-8):	Wydajna, zwarta tablica asocjacyjna
 Name:		libcuckoo
-Version:	0.3
-Release:	2
+Version:	0.3.1
+Release:	1
 License:	Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/efficient/libcuckoo/releases
 Source0:	https://github.com/efficient/libcuckoo/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	13f68f7d20c8b9d819d6f1b12a3b1dc4
+# Source0-md5:	9652ec37186cb95ff253178b26f444c5
 URL:		https://github.com/efficient/libcuckoo
 BuildRequires:	cmake >= 3.1.0
 BuildRequires:	libstdc++-devel >= 6:4.7
